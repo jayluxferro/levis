@@ -1,0 +1,7 @@
+#!/bin/bash
+./build
+
+for x in $(seq 0 5 100);
+do
+  ./levis_client $1 $(echo `python -c "print('a'* $x)"`);
+done

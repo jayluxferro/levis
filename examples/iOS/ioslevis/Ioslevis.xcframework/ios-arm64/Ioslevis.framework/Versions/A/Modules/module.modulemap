@@ -1,0 +1,8 @@
+framework module "Ioslevis" {
+	header "ref.h"
+    header "Ioslevis.objc.h"
+    header "Universe.objc.h"
+    header "Ioslevis.h"
+
+    export *
+}

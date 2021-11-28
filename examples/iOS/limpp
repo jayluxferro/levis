@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for x in $(seq 0 5 100);
+do
+  levis $@ $(echo `python -c "print('a'* $x)"`);
+done

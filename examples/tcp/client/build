@@ -1,0 +1,1 @@
+go build -ldflags="-s -w" -o levis_client levis_client.go
