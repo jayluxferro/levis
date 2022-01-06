@@ -17,9 +17,9 @@ func main() {
 	payload := ""
 
 	if len(os.Args) == 2 {
-		payload = ""
+		payload = "{'data': ''}"
 	}else {
-		payload = os.Args[2]
+		payload = "{'data': '" + os.Args[2] + "'}"
 	}
 
 
@@ -27,7 +27,7 @@ func main() {
 		Type:						levis.Confirmable,
 		Code:						levis.GET,
 		MessageID:			255,
-		ContentFormat:	levis.TextPlain,
+		ContentFormat:	levis.AppJSON,
 		Payload:				[]byte(payload),
 	}
 

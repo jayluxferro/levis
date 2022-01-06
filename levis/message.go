@@ -98,9 +98,8 @@ type MediaType uint8
 
 // Content types.
 const (
-	TextPlain     MediaType = 0  // text/plain;charset=utf-8
-	AppXML        MediaType = 1  // application/xml
-	AppJSON       MediaType = 2  // application/json
+	AppXML        MediaType = 0  // application/xml
+	AppJSON       MediaType = 1  // application/json
 )
 
 

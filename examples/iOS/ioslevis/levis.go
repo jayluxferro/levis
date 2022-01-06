@@ -40,7 +40,7 @@ func StartTCPClient(endpoint string, payload string){
 		Type:						levis.Confirmable,
 		Code:						levis.GET,
 		MessageID:			255,
-		ContentFormat:	levis.TextPlain,
+		ContentFormat:	levis.AppJSON,
 		Payload:				[]byte(payload),
 	}
 
@@ -76,7 +76,7 @@ func StartUDPClient(endpoint string, payload string){
 		Type:						levis.Confirmable,
 		Code:						levis.GET,
 		MessageID:			255,
-		ContentFormat:	levis.TextPlain,
+		ContentFormat:	levis.AppJSON,
 		Payload:				[]byte(payload),
   }
 
