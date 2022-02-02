@@ -1,4 +1,4 @@
-#### A Lightweight Messaging Protocol (LiMP) for Internet of Things Devices
+### A Lightweight Messaging Protocol (LiMP) for Internet of Things Devices
 Justice Owusu Agyemang, Jerry John Kponyo, James Dzisi Gadze, Henry Nunoo-Mensah, and Dantong Yu
 
 Technologies 2022, 10(1), 21; https://doi.org/10.3390/technologies10010021
